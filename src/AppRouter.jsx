@@ -14,9 +14,17 @@ export const AppRouter = () => {
     const handleRouteChange = (newRoute) => {
       setRoute(newRoute);
     };
-  
-    let content = route === '/Input' ? <Input/> :route === '/Hangman' ? <Game/>: null;
-  
+    
+    const sw = localStorage.getItem('palabra');
+
+
+      let content = route === '/Input' ? <Input/> :route === '/Hangman' ? <Game/>: null;
+
+    
+    
+   
+
+
 
 
   return (

@@ -12,7 +12,7 @@ export const Hangman = ({guesses}) => {
 
 
   return (
-    <div className='hangman-container'  style={{backgroundImage:`url(./../../src/img/${guesses}.png)`}}>
+    <div className='hangman-container'  style={{backgroundImage:`url(https://github.com/eivxr/pruebaXD/tree/main/src/img/${guesses}.png)`}}>
     
     </div>
   )
